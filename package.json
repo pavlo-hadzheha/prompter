@@ -1,5 +1,5 @@
 {
-    "name": "prompter",
+    "name": "prompter-pavlo-test",
     "version": "0.0.1",
     "description": "Framework for building terminal prompt applications",
     "main": "./dist/index.mjs",
