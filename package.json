@@ -1,0 +1,42 @@
+{
+    "name": "prompter",
+    "version": "0.0.1",
+    "description": "Framework for building terminal prompt applications",
+    "main": "./dist/index.mjs",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.mts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsup --cjsInterop",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pavlo-hadzheha/prompter.git"
+    },
+    "keywords": [
+        "prompt",
+        "framework",
+        "typescript"
+    ],
+    "author": "Pavlo Hadzheha",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/pavlo-hadzheha/prompter/issues"
+    },
+    "homepage": "https://github.com/pavlo-hadzheha/prompter#readme",
+    "devDependencies": {
+        "@types/inquirer": "^9.0.7",
+        "@types/uuid": "^9.0.7",
+        "ts-node": "^10.9.1",
+        "tsup": "^7.2.0",
+        "typescript": "^5.2.2"
+    },
+    "dependencies": {
+        "chalk": "^5.3.0",
+        "inquirer": "^9.2.12",
+        "uuid": "^9.0.1"
+    }
+}
